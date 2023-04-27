@@ -1,0 +1,62 @@
+:root{
+    --redwood: #A43F43ff;
+    --cadet-gray: #839AA6ff;
+    --fire-brick: #BE2728ff;
+    --white: #FFFFFFff;
+    --chocolate-cosmos: #61172Bff;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--cadet-gray);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#amongus{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    background-image: url("amongus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: 2.5s ease-in-out;
+    filter: blur(2px);
+}
+
+#amongus:hover{
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/033/734/268/original/denise-heeffer-amongus.gif?1610439215");
+    transform: scale(5);
+    filter: blur(0px);
+    z-index: 999;
+}
+
+#amongus:active{
+    background-image: url("https://i.pinimg.com/originals/dc/03/a4/dc03a4786495495b233b20c50c62b352.gif");
+    transform: scale(5);
+}
+
+#zedamanga{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    background-image: url("https://diariodorio.com/wp-content/plugins/serverdoin-eleicoes/fotos/bahia/guanambi/50000883730.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    filter: blur(2px);
+}
+
+#zedamanga:hover{
+    transform: scale(5);
+    filter: blur(0px);
+    z-index: 999;
+}
